@@ -1,0 +1,35 @@
+apply plugin: 'java'
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'autoimplement'
+
+    libraryName = 'autoimplement'
+    publishedGroupId = 'com.steve.mvp'
+    artifact = 'autoimplement'
+
+    libraryDescription = 'Easy way to generate class who autoimplement interfaces methods'
+
+    siteUrl = 'https://github.com/karolsteve/autoimplement'
+    gitUrl = 'https://github.com/karolsteve/autoimplement.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'karolsteve'
+    developerName = 'Steve Tchatchouang'
+    developerEmail = 'steve.tchatchouang2015@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
