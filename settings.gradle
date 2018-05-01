@@ -1,1 +1,1 @@
-include ':app', ':autoimplement'
+include ':app', ':autoimplement', ':autoimplementprocessor'

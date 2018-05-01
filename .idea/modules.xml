@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AutoImplementExample.iml" filepath="$PROJECT_DIR$/AutoImplementExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/autoimplement/autoimplement.iml" filepath="$PROJECT_DIR$/autoimplement/autoimplement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoimplementprocessor/autoimplementprocessor.iml" filepath="$PROJECT_DIR$/autoimplementprocessor/autoimplementprocessor.iml" />
     </modules>
   </component>
 </project>
