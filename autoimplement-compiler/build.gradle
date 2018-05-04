@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/karolsteve/autoimplement'
     gitUrl = 'https://github.com/karolsteve/autoimplement.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'karolsteve'
     developerName = 'Steve Tchatchouang'
@@ -33,5 +33,5 @@ dependencies {
 sourceCompatibility = "1.8"
 targetCompatibility = "1.8"
 
-//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
