@@ -4,7 +4,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'autoimplement-compiler'
 
-    libraryName = 'autoimplementprocessor'
+    libraryName = 'autoimplement-compiler'
     publishedGroupId = 'com.steve.mvp'
     artifact = 'autoimplement-compiler'
 
