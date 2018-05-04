@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/karolsteve/autoimplement'
     gitUrl = 'https://github.com/karolsteve/autoimplement.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'karolsteve'
     developerName = 'Steve Tchatchouang'
